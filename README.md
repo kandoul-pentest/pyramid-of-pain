@@ -42,7 +42,7 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 - Malicious file: `C:\Temp\stealer.exe`  
 - Suspicious process: `regidle.exe`  
 **Screenshot**:  
-![Host Artifacts](vendorsmalicious.jpeg)
+![Host Artifacts](us.jpeg)
 **Impact**: The attacker must rewrite or relocate the malware.
 
 ---
