@@ -9,7 +9,7 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 **Example**:  
 - MD5 hash of a ransomware: `D1A008E3A606F24590A02B853E955CF7`  
 **Screenshot**:  
-![Hash Values](filename1.jpge)  
+![Hash Values](filename1.jpeg)  
 **Why is it weak?** A hacker modifies the file → the hash changes instantly.
 
 ---
