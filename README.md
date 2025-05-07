@@ -9,7 +9,7 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 **Example**:  
 - MD5 hash of a ransomware: `D1A008E3A606F24590A02B853E955CF7`  
 **Screenshot**:  
-![Hash Values](screenshots/hash_values_trivial.png)  
+![Hash Values](filename.png)  
 **Why is it weak?** A hacker modifies the file → the hash changes instantly.
 
 ---
@@ -20,7 +20,8 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 - Malicious IP: `185.65.134.1` (United States, port 8080)  
 - First DNS contacted: `c2.malware.com`  
 **Screenshot**:  
-![IP Address](screenshots/ip_address_easy.png)  
+![IP Address](firstadresse.png)
+![dns](firstdns.png)  
 **Problem**: The attacker uses a VPN → gets a new IP within 2 seconds.
 
 ---
@@ -30,7 +31,7 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 **Example**:  
 - Punycode attack: `adıdas.de` (actually `xn--addas-o4a.de`)  
 **Screenshot**:  
-![Domain Names](screenshots/domain_names_simple.png)  
+![Domain Names](redirection.png)  
 **Defense**: Block domains that are similar to legitimate brands.
 
 ---
@@ -41,7 +42,7 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 - Malicious file: `C:\Temp\stealer.exe`  
 - Suspicious process: `regidle.exe`  
 **Screenshot**:  
-![Host Artifacts](screenshots/host_artifacts_annoying.png)  
+![Host Artifacts](vendorsmalicious.png)
 **Impact**: The attacker must rewrite or relocate the malware.
 
 ---
@@ -51,7 +52,7 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 **Example**:  
 - 58 out of 72 antivirus engines detect the file as malicious.  
 **Screenshot**:  
-![Vendors Detection](screenshots/vendors_malicious.png)  
+![Vendors Detection](vendors_malicious.png)  
 **Solution**: Use behavioral analysis to bypass signature-based detection.
 
 ---
@@ -62,13 +63,13 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 - Exfiltration technique: ID 9 (MITRE ATT&CK framework)  
 - Tool used by the Chimera group: `Cobalt Strike`  
 **Screenshot**:  
-![TTPs](screenshots/exfiltration.png)  
+![TTPs](exfiltration.png)  
 **Power**: Blocking TTPs forces the attacker to completely redesign their operations.
 
 ---
 
 ## 📊 Pyramid Overview
-![Pyramid Overview](screenshots/pyramid_tasks_overview.png)
+![Pyramid Overview](pyramidtask.png)
 
 ---
 
