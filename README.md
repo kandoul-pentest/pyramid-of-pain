@@ -69,7 +69,7 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 ---
 
 ## 📊 Pyramid Overview
-![Pyramid Overview](pyramidtask.jpeg)
+![Pyramid Overview](pyramid.jpeg)
 
 ---
 
