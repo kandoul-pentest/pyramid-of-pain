@@ -52,7 +52,8 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 **Example**:  
 - 58 out of 72 antivirus engines detect the file as malicious.  
 **Screenshot**:  
-![Vendors Detection](vendors_malicious.jpeg)  
+![Vendors Detection](vendors.jpeg)
+![Vendors Detection](filedropped.jpeg)
 **Solution**: Use behavioral analysis to bypass signature-based detection.
 
 ---
