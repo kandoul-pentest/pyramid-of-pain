@@ -11,7 +11,6 @@ Practical analysis of the 6 levels of the Pyramid of Pain, with visual evidence.
 **Screenshot**:  
 ![Hash Values](filename1.jpeg)  
 **Why is it weak?** A hacker modifies the file → the hash changes instantly.
-
 ---
 
 ## 🟢 2. IP Addresses (Easy)
